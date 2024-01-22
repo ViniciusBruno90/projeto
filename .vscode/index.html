@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="lighty">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Vinicius no TAF guarda na faculdade ESTACIO"
+        />
+        <p>@viniciusbruno90</p>
+      </div>
+      <div id="swtich" onclick="toggleMode()">
+        <button></button>
+        <span> </span>
+      </div>
+      <ul>
+        <!-- criar lista-->
+        <li>
+          <a href="#">Inscrever-se no NLW</a>
+          <!--quando se coloca # no href para n levar a lugar algum--->
+        </li>
+        <li>
+          <a href="#">Baixar meu e-book</a>
+        </li>
+        <li><a href="#">Ver meu portfólio</a></li>
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank"
+            >Conheça o Explorer</a
+          >
+          <!--o target blank é para abrir uma nova aba e n sair da tela base-->
+        </li>
+      </ul>
+      <div id="social-links">
+        <!--link dos icones https://ionic.io/ionicons-->
+        <a href="https://github.com/ViniciusBruno90" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/rocketseat/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com/@rocketseat" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://br.linkedin.com/school/rocketseat/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        <!--usada para criar roda pe-->
+        Feito com ❤️ pela <a href="https://rocketseat.com.br">Rocketseat</a>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

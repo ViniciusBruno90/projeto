@@ -1,0 +1,13 @@
+comandos mais usandos no GIT
+
+git init
+*inicia o git (repositório) no seu projeto
+
+git add .
+*adiciona todos os arquivos modificados, ao stage
+
+git commit -m "message here"
+*cria e descreve um ponto na historia
+
+git push
+*envia alterações para o repositório remoto
