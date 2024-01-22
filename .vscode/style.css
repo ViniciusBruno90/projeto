@@ -29,11 +29,15 @@
 body {
   /* "PARA FAZER OS CODIGOS ABAIXO FICAR EM UM UNICO AGRUPAMENTO" */
 
+  /*da para transformar essas 4 linhas em uma unica linha exemplo*/
+  /* background: var(--bg-url); no-repeat top center/cover;*/
+
   background: var(--bg-url);
   /* background-image: url(./assets/bg-mobile.jpg); */
   background-repeat: no-repeat; /* para n ocorrer repeticao da imagem na tela */
   background-position: top center; /* eixo x e y da tela */
   background-size: cover; /* COVER vai cobrir toda parte lateral do celular ou aba.*/
+  height: 100vh;
 
   /*background: color image repeat position/size */
   /* background: url(./assets/bg-mobile.jpg) no-repeat top center/cover; */
@@ -185,4 +189,18 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queries */
+/* essa opcao do @media so funciona se no index tiver <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>,  adicionado*/
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .lighty {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
