@@ -1,5 +1,12 @@
 comandos mais usandos no GIT
 
+comandos no terminal
+
+git -v  * verifica a versao do git*
+
+
+
+
 git init
 *inicia o git (repositório) no seu projeto
 

@@ -45,7 +45,8 @@ body * {
 }
 
 #container {
-  width: 360px; /*largura*/
+  width: 100%; /*largura*/
+  max-width: 588px;
   margin: 56px auto 0px; /* 56px top  auto =laterais e  0px embaixo
  /* height: 712px; altura */
   /*margin: auto; */
