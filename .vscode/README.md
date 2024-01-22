@@ -31,6 +31,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
+## ❤️ Aprendizado
+
+- Aprendi a utilizar de melhor forma o CSS e o HTML onde não tinha certa base de conhecimento e melhorei muito com esse projeto.
+- Aprendi a como utilizar inicialmente JavaScript, no qual não tinha contato com essa linguagem.
+- Com esse projeto abriu meus olhos para a programação na qual achei que não seria uma área para eu poder atuar.
+
 ## 💻 Projeto
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
